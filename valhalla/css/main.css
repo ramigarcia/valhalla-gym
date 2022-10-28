@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-mobil {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-desktop {
+    display: none;
+  }
+  .btn-mobil {
+    display: block;
+  }
+}
